@@ -1,0 +1,8 @@
+Modelo,F1 baseline,F1 tunado,Ganho F1,Params
+TabNet,,0.27262313860252,,"n_d=16, n_a=16, n_steps=4"
+Deep MLP,,0.32123849078217603,,"{'hidden_layer_sizes': (256, 128, 64), 'alpha': 0.001, 'early_stopping': True, 'learning_rate': 'adaptive'}"
+MLP,0.3210742569468796,0.34509565693344796,0.02402139998656838,"{'alpha': 0.0001, 'hidden_layer_sizes': (100, 50), 'learning_rate_init': 0.001}"
+KNN,0.3589798225792416,0.3690050562185963,0.010025233639354703,"{'metric': 'manhattan', 'n_neighbors': 21, 'weights': 'distance'}"
+Naive Bayes,0.4144873041097192,0.4144873041097192,0.0,{'var_smoothing': np.float64(1e-10)}
+SVM (RBF),0.31250652422842606,0.4689020483799851,0.15639552415155905,"{'C': 1, 'class_weight': 'balanced', 'gamma': 'scale'}"
+Decision Tree,0.35611394491989734,0.4705834833876681,0.11446953846777075,"{'class_weight': 'balanced', 'max_depth': 7, 'min_samples_leaf': 10}"

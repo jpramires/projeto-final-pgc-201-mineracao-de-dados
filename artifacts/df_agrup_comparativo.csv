@@ -1,0 +1,5 @@
+,Silhouette,Calinski-Harabasz,Davies-Bouldin
+GMM (k=7),0.1414,3919.1,2.1666
+K-Means (k=3),0.2833,7392.1,1.7024
+Ward (k=3),0.2972,7071.1,1.5313
+K-Means (k=2),0.3074,11310.3,1.4651
